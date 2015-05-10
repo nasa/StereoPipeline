@@ -1,0 +1,129 @@
+# NASA Ames Stereo Pipeline
+
+************************************************************************
+### INTRODUCTION
+
+##### A. Neo-Geography Toolkit
+
+The Neo-Geography Toolkit (NGT) is a collection of tools for automated
+processing of geospatial data, including images and maps. It is capable
+of processing raw raster data from remote sensing instruments and
+transforming it into useful cartographic products, such as visible image
+base maps, topographic models, etc. Additionally, components of the NGT
+can perform data processing on extremely large geospatial data sets (up
+to several tens of terabytes) via parallel processing pipelines.
+Finally, it can also transform raw metadata (i.e.  SPICE kernels and PDS
+image labels), vector data (e.g., 2D/3D shape files), and geo-tagged
+data sets into standard NeoGeography data formats, such as KML.  NGT is
+an evolving collection of loosely connected open-source modules designed
+by the NASA Ames Intelligent Robotics Group. Modules of the NGT will be
+released one at a time, as they reach maturity. To date, we have
+completed only one module: the NASA Ames Stereo Pipeline, but more will
+soon follow. Check this website for the latest updates.
+
+##### B. Stereo Pipeline
+
+The NASA Ames Stereo Pipeline (ASP) is a suite of automated geodesy &
+stereogrammetry tools designed for processing planetary imagery captured
+from orbiting and landed robotic explorers on other planets. It was
+designed to process stereo imagery captured by NASA spacecraft and
+produce cartographic products including digital elevation models (DEMs),
+ortho-projected imagery, and 3D models. These data products are suitable
+for science analysis, mission planning, and public outreach.
+
+This version of the Stereo Pipeline is designed as an add-on to an
+existing installation of the USGS Integrated Software for Imagers and
+Spectrometers (ISIS). ISIS is widely used in the planetary science
+community for processing raw spacecraft imagery into high level data
+products of scientific interest such as map projected and mosaicked
+imagery.
+
+This version of the Stereo Pipeline is tested against ISIS version
+3.3.0. The Stereo Pipeline binary distribution requires this version.
+The source distribution recommends this version, but may work with other
+versions.
+
+************************************************************************
+### LICENSE (see COPYING for the full text)
+
+##### A. Copyright and License Summary
+
+Copyright (C) 2006-2009 United States Government as represented by the
+Administrator of the National Aeronautics and Space Administration
+(NASA).  All Rights Reserved.
+
+This software is distributed under the NASA Open Source Agreement
+(NOSA), version 1.3.  The NOSA has been approved by the Open Source
+Initiative.  See the file "COPYING" at the top of the distribution
+directory tree for the complete NOSA document.
+
+THE SUBJECT SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY OF ANY
+KIND, EITHER EXPRESSED, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT
+LIMITED TO, ANY WARRANTY THAT THE SUBJECT SOFTWARE WILL CONFORM TO
+SPECIFICATIONS, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, OR FREEDOM FROM INFRINGEMENT, ANY WARRANTY THAT
+THE SUBJECT SOFTWARE WILL BE ERROR FREE, OR ANY WARRANTY THAT
+DOCUMENTATION, IF PROVIDED, WILL CONFORM TO THE SUBJECT SOFTWARE.
+
+##### B. Third-Party Libraries
+
+This distribution may include some bundled third-party software as a
+convenience to the user.  This software, located in the "thirdparty/"
+directory of the source code release, is not covered by the
+above-mentioned distribution agreement or copyright. Binary releases
+distribute third party software in both the "bin" and "lib"
+directories. See the included documentation for detailed copyright
+and license information for any third-party software or check the
+THIRDPARTYLICENSES file.  In addition, various pieces of the NGT
+depend on additional third-party libraries that the user is expected
+to have installed.
+
+************************************************************************
+### DOCUMENTATION
+
+The primary source of documentation is the Stereo Pipeline Book. The
+binary distribution contains the book, named `asp_book.pdf`, and the
+source distribution contains the LaTeX source of the book in the
+docs/book subdirectory.
+
+The book includes a gentle introduction to using the Stereo Pipeline, as
+well as documentation for each of its major processes.  A copy of this
+document in PDF format is also available from wherever you obtained this
+package.
+
+************************************************************************
+### CONTACTS & CREDITS
+
+##### A. Mailing List
+
+All bugs, feature requests, and general discussion should be sent to
+the NGT user mailing list:
+
+  stereo-pipeline@lists.nasa.gov
+
+To subscribe to this list, send an empty email message with the subject
+'subscribe' (without the quotes) to
+
+  stereo-pipeline@lists.nasa.gov
+
+To contact the lead developers and project manager directly, send mail
+to:
+
+  stereo-pipeline@lists.nasa.gov
+
+Please do NOT use this second list for technical inquiries, which
+should all be sent to the main stereo-pipeline list above.
+
+##### B. Credits
+
+The NGT was developed within the Autonomous Systems and
+Robotics area of the Intelligent Systems Division at NASA's Ames
+Research Center.  It leverages the Intelligent Robotics Group's (IRG)
+extensive experience developing surface reconstruction and tools for
+planetary exploration---e.g. the Mars Pathfinder and Mars Exploration
+Rover missions---and rover autonomy.  It has also been developed in
+collaboration with the Adaptive Control and Evolvable Systems (ACES)
+group, and draws on their experience developing computer vision
+techniques for autonomous vehicle control systems.
+
+See the `AUTHORS` file for a complete list of developers.
